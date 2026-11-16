@@ -1,5 +1,5 @@
 // Guarda la app para que abra rápido y sin internet. Los datos van aparte (este dispositivo + Google Drive).
-const CACHE = 'chongdashboard-v1';
+const CACHE = 'chongdashboard-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
